@@ -26,9 +26,21 @@ This project is a full-stack application that manages product transactions. It a
 
 ## Sample Screenshots
 
-### Transactions Dashboard
+### Transactions Dashboard and Table
 
+![Screenshot 2024-10-11 220414](https://github.com/user-attachments/assets/f29e8e36-77e1-44c3-8c21-0a59d53811d1)
 
+### Statistics for Month
+
+![Screenshot 2024-10-11 220428](https://github.com/user-attachments/assets/77896952-eddc-4e9a-ae85-2cdfc8775afc)
+
+### Bar-Chart for Month
+
+![Screenshot 2024-10-11 220442](https://github.com/user-attachments/assets/007edcad-ce63-41d3-97c0-54d065785aa3)
+
+### Pie-Chart for Month
+
+![Screenshot 2024-10-11 220455](https://github.com/user-attachments/assets/b2e19175-1817-47bc-9e3a-c9737f5f460b)
 
 
 
@@ -69,8 +81,9 @@ Create a .env file in the backend directory and add your MongoDB URI:
 6.Navigate back to the frontend directory:
   
   ```cd ../```
+
+  `cd frontend`
   
-  ```cd src```
 
 7.Install frontend dependencies:
 
@@ -78,5 +91,5 @@ Create a .env file in the backend directory and add your MongoDB URI:
 
 8.Run the application:
 
-`npm install`
+`npm run dev`
 
